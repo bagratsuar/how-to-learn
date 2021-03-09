@@ -21,13 +21,11 @@
   position: relative;
 
   /* выше установили ограничения для секции */
-
- 
 }
+
 .logo {
   width: 183px;
   height: 32px;
-
 }
 
 .logo__place__header {
@@ -36,7 +34,8 @@
   left: 64px;
   top: 30px;
 }
-.header__title{
+
+.header__title {
   width: 730px;
   height: 96px;
   font-size: 102px;
@@ -44,7 +43,8 @@
   margin-left: 64px;
   font-weight: bold;
 }
-.header__subtitle{
+
+.header__subtitle {
   z-index: 1;
   position: absolute;
   width: 400px;
@@ -53,37 +53,35 @@
   bottom: 30px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
-.header__main__illustration{
-z-index: 1;
-position: absolute;
-width: 765px;
-height: 608px;
-bottom: 0;
-right: 0;
-  
+.header__main__illustration {
+  z-index: 1;
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  bottom: 0;
+  right: 0;
 }
 
-.header__square_pic{
+.header__square_pic {
   position: absolute;
   top: 64px;
   width: 568px;
   height: 564px;
   right: 0;
-  background-color:#2f80ed;
+  background-color: #2f80ed;
 }
 
-
-.two__columns{
+.two__columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: auto;
   margin-bottom: 100px;
 }
-.two__columns__brief{
+
+.two__columns__brief {
   width: 175px;
   font-size: 18px;
   font-weight: normal;
@@ -92,21 +90,22 @@ right: 0;
   margin-top: 30px;
 }
 
-.two__columns__main-text{
+.two__columns__main-text {
   font-size: 24px;
   width: 80%;
   line-height: 34px;
   font-weight: normal;
 }
-.two__columns__paragraph__first{
+
+.two__columns__paragraph__first {
   margin-bottom: 30px;
 }
 
-.two__columns__span-accent{
+.two__columns__span-accent {
   font-weight: bolder;
 }
 
-.section__title{
+.section__title {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -117,7 +116,7 @@ right: 0;
   font-weight: bolder;
 }
 
-.section__subtitle{
+.section__subtitle {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -126,7 +125,8 @@ right: 0;
   font-size: 24px;
   font-weight: normal;
 }
-.table{
+
+.table {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -134,30 +134,30 @@ right: 0;
   width: 1100px;
   margin: auto;
   margin-bottom: 100px;
-
-
 }
-.table__cell{
+
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
 
-.table__cell__heading{
+.table__cell__heading {
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
 }
-.table__cell__heading__text{
+
+.table__cell__heading__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.feynman{
+.feynman {
   position: relative;
 
-  background-image:url(../images/feynman.png);
+  background-image: url(../images/feynman.png);
   background-color: #f2f2f2;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -166,7 +166,7 @@ right: 0;
   padding-top: 100px;
 }
 
-.feynman__title{
+.feynman__title {
   display: flex;
   text-align: center;
   margin: auto;
@@ -177,7 +177,7 @@ right: 0;
   font-weight: bolder;
 }
 
-.feynman__subtitle{
+.feynman__subtitle {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -186,27 +186,28 @@ right: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  }
-.feynmam__link{
+}
+
+.feynmam__link {
   position: absolute;
   top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  color:#2f80ed;
+  color: #2f80ed;
   text-decoration: none;
 }
-.kaufman{
-padding-top: 90px;
-background-color: black;
-padding-bottom: 90px;
-overflow: hidden;
-position: relative;
+
+.kaufman {
+  padding-top: 90px;
+  background-color: black;
+  padding-bottom: 90px;
+  overflow: hidden;
+  position: relative;
 }
 
-
-.section__title_theme_dark{
+.section__title_theme_dark {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -219,7 +220,7 @@ position: relative;
   margin-bottom: 20px;
 }
 
-.section__subtitle_theme_dark{
+.section__subtitle_theme_dark {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -229,63 +230,61 @@ position: relative;
   font-weight: normal;
   color: white;
   z-index: 1;
-
 }
-.table_theme_dark{
+
+.table_theme_dark {
   position: relative;
- 
+
   margin: auto;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
   display: flex;
   z-index: 1;
-  
 }
 
-.table__cell_theme_dark{
+.table__cell_theme_dark {
   color: white;
   margin-top: 80px;
   width: 200px;
-  
 }
 
-.table__cell__heading_theme_dark{
-  
+.table__cell__heading_theme_dark {
+
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
 }
 
-.table__cell__heading__text_theme_dark{
+.table__cell__heading__text_theme_dark {
 
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.kaufman__triangle{
-width: 877px;
-height: 877px;
-background-image:url(../images/kaufman-triangle.svg);
-position: absolute;
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-right:-210px;
-z-index: 0;
-top: 0;
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  right: -210px;
+  z-index: 0;
+  top: 0;
 }
 
-.footer{
+.footer {
   padding-top: 60px;
   background-color: black;
   padding-bottom: 40px;
-  min-height: 350px;  
-  }
+  min-height: 350px;
+}
 
-.footer__columns{
+.footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -295,22 +294,21 @@ top: 0;
   padding-right: 0;
 }
 
-.footer__column_content_copyright{
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.footer__author{
+.footer__author {
   margin: 0;
   color: white;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
   margin-top: 18px;
-  margin-bottom: 18px; 
-  
+  margin-bottom: 18px;
 }
 
 .logo__place__footer {
@@ -318,17 +316,15 @@ top: 0;
   height: 35px;
 }
 
-.footer__column-heading{
+.footer__column-heading {
   color: white;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bolder;
-
-  
-
 }
-.footer__column-links{
+
+.footer__column-links {
   color: white;
   margin-bottom: 16px;
   line-height: 30px;
@@ -340,7 +336,7 @@ top: 0;
   list-style: none;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   color: white;
   margin-bottom: 16px;
   line-height: 30px;
@@ -352,12 +348,11 @@ top: 0;
   list-style: none;
 }
 
-.footer__social-icon a:link{
+.footer__social-icon a:link {
   color: white;
   text-decoration: none;
-} 
+}
 
-.footer__social-icon a:visited{
+.footer__social-icon a:visited {
   color: white;
-} 
-
+}
