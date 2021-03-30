@@ -19,6 +19,7 @@
   background-color: #f2f2f2;
   margin-bottom: 100px;
   position: relative;
+  z-index: 1;
 
   /* выше установили ограничения для секции */
 }
@@ -35,7 +36,6 @@
 }
 
 .header__main-illustration {
-  z-index: 1;
   position: absolute;
   width: 765px;
   height: 608px;
@@ -47,7 +47,6 @@
   width: 730px;
   height: 96px;
   font-size: 102px;
-  z-index: 1;
   margin-left: 64px;
   font-weight: bold;
 }
@@ -65,6 +64,12 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+  
+}
+
+.header__link_active:hover {
+  opacity: 0.3;
 }
 
 .header__square-pic {
@@ -74,6 +79,7 @@
   height: 564px;
   right: 0;
   background-color: #2f80ed;
+  z-index: -1;
 }
 
 .two-columns {
@@ -201,6 +207,11 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+}
+
+.feynmam__link_active:hover {
+  opacity: 0.3;
 }
 
 .kaufman {
@@ -209,6 +220,7 @@
   padding-bottom: 90px;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .section__title_theme_dark {
@@ -240,7 +252,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   display: flex;
-  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -272,6 +283,7 @@
   background-position: center;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 .footer{
@@ -329,6 +341,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  opacity: 1;
+}
+
+.footer__column-links_active:hover{
+  opacity: 0.3;
 }
 
 .footer__social-icon {
@@ -347,4 +364,9 @@
   font-weight: normal;
   margin-left: 0;
   padding-left: 0;
+  opacity: 1;
+}
+
+.footer__column-link_active:hover{
+  opacity: 0.3;
 }
