@@ -19,7 +19,7 @@
   background-color: #f2f2f2;
   margin-bottom: 100px;
   position: relative;
-  z-index: 1;
+  
 
   /* выше установили ограничения для секции */
 }
@@ -41,6 +41,7 @@
   height: 608px;
   bottom: 0;
   right: 0;
+  z-index: 2;
 }
 
 .header__title {
@@ -51,6 +52,7 @@
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -63,6 +65,7 @@
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
+  z-index: 3;
 }
 
 .header__link {
@@ -72,7 +75,7 @@
   
 }
 
-.header__link_active:hover {
+.header__link:hover {
   opacity: 0.3;
 }
 
@@ -83,7 +86,7 @@
   height: 564px;
   right: 0;
   background-color: #2f80ed;
-  z-index: -1;
+  z-index: 1;
 }
 
 .two-columns {
@@ -158,6 +161,7 @@
   margin: auto;
   margin-bottom: 100px;
   list-style: none;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -178,7 +182,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 0;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .feynman {
@@ -225,7 +229,7 @@
   opacity: 1;
 }
 
-.feynman__link_active:hover {
+.feynman__link:hover {
   opacity: 0.3;
 }
 
@@ -238,7 +242,7 @@
   z-index: 1;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -250,7 +254,7 @@
   margin-bottom: 20px;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -303,7 +307,7 @@
   z-index: -1;
 }
 
-.footer{
+.footer {
   min-height: 350px;
   background-color: #1f1f1f;
   margin: 0 auto;
@@ -361,7 +365,7 @@
   opacity: 1;
 }
 
-.footer__column-links_active:hover{
+.footer__column-links:hover {
   opacity: 0.3;
 }
 
@@ -384,6 +388,6 @@
   opacity: 1;
 }
 
-.footer__column-link_active:hover{
+.footer__column-link:hover {
   opacity: 0.3;
 }
