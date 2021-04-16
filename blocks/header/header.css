@@ -1,5 +1,3 @@
-@import url(../header/rotation/rotation.css);
-
 .header {
     height: 100vh;
     min-height: 600px;
@@ -11,4 +9,4 @@
     margin-bottom: 100px;
     position: relative;
     overflow: hidden;
-  }
+}

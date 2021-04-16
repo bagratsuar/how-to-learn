@@ -4,7 +4,7 @@
     text-decoration: none;
     line-height: 42px;
     font-size: 30px;
-    align-self: auto;
+    align-self: flex-start;
 }
 
 .khan__buy-link:hover {
